@@ -1,7 +1,9 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SolarArbiter/2019-Denver-Workshop/master)
+
 2019 Denver Workshop
 ====================
 
-Materials for Solar Forecast Arbiter 2019 Denver Stakeholder Workshop.
+Materials for the Solar Forecast Arbiter 2019 Denver Stakeholder Workshop.
 
 1. Explore reference data
 2. Create new site/observation/forecast
