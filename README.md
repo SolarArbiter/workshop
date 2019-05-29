@@ -5,7 +5,7 @@
 
 Materials for the Solar Forecast Arbiter 2019 Denver Stakeholder Workshop.
 
-1. Explore reference data
+1. [Explore reference data](reference_data.md)
 2. Create new site/observation/forecast
 2. Upload/download data
 2. View data access controls
