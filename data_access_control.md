@@ -33,7 +33,7 @@ Utility X and Forecasters A and B described above.
 
 
 ## View the data available to Utility X
-Log into the dashboard as Utility X and follow the _Sites_ link to view the list of Sites available to you. Here, you 
+Log in to the dashboard as Utility X and follow the _Sites_ link to view the list of sites available to you. Here you 
 should see a site 'Power Plant X' provided by 'Utility X'.
 
 Click on the site and view its observations and forecasts. You will notice that all observations are provided by
@@ -47,9 +47,8 @@ The following steps guide you in how to view the roles of the 'Utility X' user.
 3. Click on the User ID field in the table, there should only be one user in the table.
 
 ### The User Page
-This page shows some information about the user, `utilityx@solarforecastarbiter.org`, as well as
-listing the roles they are assigned. Notice the 'Read Forecaster A Plant X Forecast' role and its
-organization. 
+This page shows some information about the user Utility X, as well as listing the roles they are assigned. Notice
+the 'Read Forecaster A Plant X Forecast' role and its organization. 
 This is a role granted by Forecaster A to read the values and metadata of the forecast they have provided
 for the site 'Power Plant X'. There is also a similar role granted to the user from Forecaster B. The
 'Utility X' role grants the user access to all of the resources in this organization.
@@ -60,8 +59,8 @@ and a list of permissions it grants. Notice that this particular role contains o
 permissions allow the user at Utility X to access the Single forecast made by Forecaster A at Power Plant X.
 
   - The 'Read Forecaster A plant x forecast metadata' permission allows read access to the metadata of the forecast
-provided by Forecaster A. The metadata of a forecast is defined in the Forecasts section of the
-[Data Model](https://solarforecastarbiter.org/datamodel/#forecasts) document.
+provided by Forecaster A. The metadata of a forecast is defined in the
+ [Forecasts section of the Data Model](https://solarforecastarbiter.org/datamodel/#forecasts) document.
 
 
   - The 'Read Forecaster A plant x forecast values' allows reading the values of the forecast made by Forecaster A
@@ -71,3 +70,48 @@ at Power Plant X.
 its permissions visible to the user it is assigned to. Usually only administrators may view or edit roles, but for
 the purposes of this demonstration, each role contains permissions to view the role itself, and the permissions
 it allows.
+
+## View the data available to Forecaster A
+Log in to the dashboard as Forecaster A and follow the Sites link to view the list of sites available to you.
+Here you should see 'Power Plant X' provided by Utility X and 'Ashland OR' provided by Organization 1.
+
+Click on 'Power Plant X'. Here you'll find the irradiance and power observations provided by Utility X. Notice
+that the only visible forecast objects are provided by Forecast Provider A.
+
+Return to the site listing and click on 'Ashland OR'. You will find irradiance observations provided by Organization1
+and a day ahead GHI forecast from Forecaster Provider A.
+
+Logging in as Forecaster B should yield all of the same observation and site information, but only forecasts from
+Forecast Provider B should be visible.
+
+## View the roles and permissions of Forecaster A
+Access the User Administration page through the 'Account' menu as in the Utility X permission section above. This section
+should be the same for Forecaster A or B, save for roles allowing each Forecaster to access their own data.
+
+### The User Page
+Click on the User ID field of the users table to view Forecaster A's user information. Notice the 'Read Plant X' role from
+organization Utility X. This role grants the forecaster access to Power Plant X and the observation data associated
+with it. There is also a 'Forecaster A' role that allows the user access to data in its own organization.
+
+### The Role Page
+Click on the 'Read Plant X' role. On this role page you can see the permissions granted to Forecaster A by Utility x. In this
+case the utility has created a single role to apply to both forecasters. Notice the following read permissions:
+  - The 'Read Plant X observation metadata' permission grants the forecaster permission to access metadata about an
+observation. The metadata of an observation is defined in the
+[Observations section of the Data Model](https://solarforecastarbiter.org/datamodel/#observations) document.
+
+  - The 'Read Plant X observation values' permission allows reading values of the observations made by Utility X at Power
+Plant X.
+
+  - The 'Read Plant X site metadata' permission allows the forecaster to read the site's metadata. Site metadata is defined
+in the [Site section of the Data Model](https://solarforecastarbiter.org/datamodel/#site) document.
+
+  - Again, the other permissions allow the Forecast user to view the role and permissions, as these permissions are usually
+reserved for administrators.
+
+### The Permission Page
+Click on the 'Read Plant X observation values' permission. The permission page shows some information about the permission
+as well as listing the objects that it allows its action on. In this case, all of the observations made by Utility X at Power
+Plant X are listed. If Utility X no longer wanted to share data from a portion of these observations, they would simply need
+to remove those observations from the permissions, although editting roles and permissions through the dashboard is not yet
+permitted.
