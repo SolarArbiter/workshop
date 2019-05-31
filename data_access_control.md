@@ -1,19 +1,20 @@
 # View Data Access Controls
 
 The Solar Forecast Arbiter uses roles and permissions to control access to data and resources within the system.
-At this time Users cannot create or edit roles or permissions, but may view them. In this excersize you will be
-able to inspect three users' access controls and how it affects the data available to them.
+At this time users are only allowed to view roles and permissions but not edit or create them. In this excersise
+you will inspect three users' access controls and how it affects the data available to them.
 
 
 A permission defines an action that can be made on an resource or group of resources, e.g. 'create a site' or
-'read forecast values from forecast A'. A role is a collection of permissions that can be assigned to a user. A
-user can be assigned multiple roles.
+'read forecast forecast A'. A role is a collection of permissions that can be assigned to a user. A user can
+be assigned multiple roles.
 
 Here we use the following scenario to demonstrate how data access controls function in the Solar Forecast Arbiter.
 
 A utility company, _Utility X_ has a power plant, Plant X with some irradiance and power measurements. They want
 to share Site information and measurements with _Forecaster A_ and _Forecaster B_.
-Forecasters A and B want to provide power forecasts for Power Plant X that are only available to users in Utility X.
+Forecasters A and B want to provide power forecasts for Power Plant X that are only visible to their own users
+and to users in Utility X.
 
 You may log in to the [Solar Forecast Arbiter Dashboard](https://dev-dashboard.solarforecastarbiter.org) as any of these users
 to view the data they have access to and the roles and permissions on their account. Credentials for each user are found in the 
@@ -45,8 +46,8 @@ This is a role granted by Forecaster A to read the values and metadata of the fo
 for the site 'Power Plant X'. There is also a similar role granted to the user from Forecaster B. The
 'Utility X' role grants the user access to all of the resources in this organization.
 
-### Role Pages
-- Click on the 'Read Forecaster A Plant X Forecast' role. The role page will display information about the role
+### The Role Page
+Click on the 'Read Forecaster A Plant X Forecast' role. The role page will display information about the role
 and a list of permissions it grants. Notice that this particular role contains only read permissions. These read
 permissions allow the user at Utility X to access the Single forecast made by Forecaster A at Power Plant X.
 
@@ -59,6 +60,6 @@ provided by Forecaster A. The metadata of a forecast is defined in the Forecasts
 at Power Plant X.
 
   - The permissions 'Read Forecaster A plant role' and 'Read Forecaster A Plant permissions' make the role and
-permission visible to the user it is assigned to. Usually only administrators may view or edit roles, but for
-the purposes of this demonstration, each Role contains permissions to view the role itself, and the permissions
+its permissions visible to the user it is assigned to. Usually only administrators may view or edit roles, but for
+the purposes of this demonstration, each role contains permissions to view the role itself, and the permissions
 it allows.
