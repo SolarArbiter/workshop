@@ -14,8 +14,8 @@ Solar Forecast Arbiter.
 A utility company, _Utility X_ has a power plant, Power Plant X with some irradiance and power measurements. They want
 to share Site metadata and measurements with _Forecaster A_ and _Forecaster B_.
 Forecasters A and B want to provide power forecasts for Power Plant X that are only visible to their own users
-and to users in Utility X. The forecasters have also made forecasts for a site, 'Ashland OR', which is not visible
-to Utility X or to the other forecaster.
+and to users in Utility X. Both forecasters have also created a forecast at the site 'Weather Station'. These forecasts
+are only visible to the Forecaster that created them. 
 
 You may log in to the [Solar Forecast Arbiter Dashboard](https://dashboard.solarforecastarbiter.org) as any of these users
 to view the data they have access to and the roles and permissions on their account. Credentials for each user are found in the 
@@ -73,12 +73,12 @@ it allows.
 
 ## View the data available to Forecaster A
 Log in to the dashboard as Forecaster A and follow the Sites link to view the list of sites available to you.
-Here you should see 'Power Plant X' provided by Utility X and 'Ashland OR' provided by Organization 1.
+Here you should see 'Power Plant X' provided by Utility X and 'Weather Station' provided by Organization 1.
 
 Click on 'Power Plant X'. Here you'll find the irradiance and power observations provided by Utility X. Notice
 that the only visible forecast objects are provided by Forecast Provider A.
 
-Return to the site listing and click on 'Ashland OR'. You will find irradiance observations provided by Organization 1
+Return to the site listing and click on 'Weather Station'. You will find irradiance observations provided by Organization 1
 and a day ahead GHI forecast from Forecaster Provider A.
 
 Logging in as Forecaster B should yield all of the same observation and site information, but only forecasts from
