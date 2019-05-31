@@ -11,7 +11,7 @@ be assigned multiple roles.
 Here we use the following scenario to demonstrate how permissions and roles enable data access control in the
 Solar Forecast Arbiter.
 
-A utility company, _Utility X_ has a power plant, Plant X with some irradiance and power measurements. They want
+A utility company, _Utility X_ has a power plant, Power Plant X with some irradiance and power measurements. They want
 to share Site metadata and measurements with _Forecaster A_ and _Forecaster B_.
 Forecasters A and B want to provide power forecasts for Power Plant X that are only visible to their own users
 and to users in Utility X. The forecasters have also made forecasts for a site, 'Ashland OR', which is not visible
