@@ -2,8 +2,7 @@
 
 The Solar Forecast Arbiter uses roles and permissions to control access to data and resources within the system.
 At this time users are only allowed to view roles and permissions but not edit or create them. In this excersise
-you will inspect three users' access controls and how it affects the data available to them.
-
+you will inspect three users' access controls and how they affect the data available to them.
 
 A permission defines an action that can be made on an resource or group of resources, e.g. 'create a site' or
 'read forecast forecast A'. A role is a collection of permissions that can be assigned to a user. A user can
@@ -85,8 +84,9 @@ Logging in as Forecaster B should yield all of the same observation and site inf
 Forecast Provider B should be visible.
 
 ## View the roles and permissions of Forecaster A
-Access the User Administration page through the 'Account' menu as in the Utility X permission section above. This section
-should be the same for Forecaster A or B, save for roles allowing each Forecaster to access their own data.
+Access the User Administration page through the 'Account' menu as in the Utility X permission section above. The
+following instructions are the same for Forecaster A or B, save for roles allowing each Forecaster to access their
+own data.
 
 ### The User Page
 Click on the User ID field of the users table to view Forecaster A's user information. Notice the 'Read Plant X' role from
