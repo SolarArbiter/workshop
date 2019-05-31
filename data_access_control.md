@@ -37,14 +37,15 @@ The following steps guide you in how to view the roles of the 'Utility X' user.
 3. Click on the "Users" link in at the top of the page.
 4. Click on the User ID field in the table, there should only be one user in the table.
 
+### The User Page
 This page shows some information about the user, `utilityx@solarforecastarbiter.org`, as well as
-listing the roles they are assigned. 
-Notice the 'Read Forecaster A Plant X Forecast' role and its
+listing the roles they are assigned. Notice the 'Read Forecaster A Plant X Forecast' role and its
 organization. 
 This is a role granted by Forecaster A to read the values and metadata of the forecast they have provided
 for the site 'Power Plant X'. There is also a similar role granted to the user from Forecaster B. The
 'Utility X' role grants the user access to all of the resources in this organization.
 
+### Role Pages
 - Click on the 'Read Forecaster A Plant X Forecast' role. The role page will display information about the role
 and a list of permissions it grants. Notice that this particular role contains only read permissions. These read
 permissions allow the user at Utility X to access the Single forecast made by Forecaster A at Power Plant X.
