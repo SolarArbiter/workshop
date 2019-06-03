@@ -5,7 +5,7 @@
 
 This repository contains materials for the [Solar Forecast Arbiter](https://solarforecastarbiter.org) 2019 Denver Stakeholder Workshop.
 
-Most of the exercises below will require you to login to the [dashboard.solarforecastarbiter.org](https://dashboard.solarforecastarbiter.org). Use any of the following logins for this workshop (some exercises recommend logging in using different accounts):
+Most of the exercises below will require you to login to [dashboard.solarforecastarbiter.org](https://dashboard.solarforecastarbiter.org). Use any of the following logins for this workshop (some exercises recommend logging in using different accounts):
 
 |Email                                 | Password          |
 |--------------------------------------|-------------------|
