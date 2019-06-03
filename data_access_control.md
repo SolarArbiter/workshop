@@ -33,11 +33,17 @@ Utility X and Forecasters A and B described above.
 
 
 ## View the data available to Utility X
-Log in to the dashboard as Utility X and follow the _Sites_ link to view the list of sites available to you. Here you 
-should see a site 'Power Plant X' provided by 'Utility X'.
+Log in to the dashboard as Utility X and follow the _Sites_ link to view the list of sites available to you. Filter
+out reference data by clicking on the "Provider" header of the table and unchecking the "Reference" box. You should
+see the sites 'Power Plant X' provided by Utility X and 'Weather Station' provided by Organization 1.
 
-Click on the site and view its observations and forecasts. You will notice that all observations are provided by
-Utility X, but there are two hour ahead AC power forecasts one provided by each forecaster.
+
+Click on Power Plant X and view its observations and forecasts. You will notice that all observations are provided by
+Utility X. There should be one hour ahead AC Power forecast provided by each forecaster. Utility X has been assigned
+a role from either organization granting the user permission to view these forecasts.
+
+Return to the sites page and click on Weather Station. You should only see observations and no forecasts at this
+site. Both Forecasters have created forecasts at this site, but have not given Utility X access to view them. 
 
 ## View the roles and permissions of Utility X 
 Follow the steps to view the roles of the 'Utility X' user.
@@ -72,17 +78,22 @@ the purposes of this demonstration, each role contains permissions to view the r
 it allows.
 
 ## View the data available to Forecaster A
-Log in to the dashboard as Forecaster A and follow the Sites link to view the list of sites available to you.
-Here you should see 'Power Plant X' provided by Utility X and 'Weather Station' provided by Organization 1.
+Log in to the dashboard as Forecaster A and follow the Sites link to view the list of sites available to you. Filter
+out reference data by clicking on the "Provider" header of the table and unchecking the "Reference" box.
+You should see the sites 'Power Plant X' provided by Utility X and 'Weather Station' provided by Organization 1.
 
 Click on 'Power Plant X'. Here you'll find the irradiance and power observations provided by Utility X. Notice
-that the only visible forecast objects are provided by Forecast Provider A.
+that the only visible forecast objects are provided by Forecast Provider A. Unlike Utility X, you will not be
+able to see the forecast provided by Forecaster B because Forecaster A has not been assigned a role with
+permission to read that data.
 
-Return to the site listing and click on 'Weather Station'. You will find irradiance observations provided by Organization 1
-and a day ahead GHI forecast from Forecaster Provider A.
+Return to the site listing and click on 'Weather Station'. You will find irradiance observations provided by
+Organization 1 and a day ahead GHI forecast from Forecaster Provider A. 
 
 Logging in as Forecaster B should yield all of the same observation and site information, but only forecasts from
-Forecast Provider B should be visible.
+Forecast Provider B should be visible. The two Forecasters have not granted any read permissions to one another
+and cannot view eachother's data. Creating new Sites, Forecasts and Observations should result in a resource
+only visible to the user that created it.
 
 ## View the roles and permissions of Forecaster A
 Access the User Administration page through the 'Account' menu as in the Utility X permission section above. The
