@@ -15,8 +15,9 @@ Complete any of these exercises in any order as they interest you:
 
 1. [Explore reference data](reference_data.md)
 2. [Create new sites, observations, and forecasts](metadata.md)
-2. [Upload and download data](upload_download_data.md)
+2. [Upload and download data using the dashboard](upload_download_data.md)
+2. [Upload and download data using the Python API](https://mybinder.org/v2/gh/SolarArbiter/2019-Denver-Workshop/master)
 2. View data access controls
 2. View sample forecast accuracy analysis report
-2. Use reference forecast code
+2. [Use reference forecast code](https://mybinder.org/v2/gh/SolarArbiter/2019-Denver-Workshop/master)
 2. [Introduction to GitHub](https://solarforecastarbiter.org/2019/01/29/Scratch-the-Surface-of-Github.html)
