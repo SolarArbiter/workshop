@@ -1,6 +1,6 @@
 # Reports
 
-The Solar Forecast Arbiter's reports are the primary outputs of the project. The reports compare one or observations to one or more forecasts. The reports include graphics and metrics that support users in determining the relative merits of forecasts.
+The Solar Forecast Arbiter's reports are the primary outputs of the project. The reports compare one or more observations to one or more forecasts. The reports include graphics and metrics that support users in determining the relative merits of forecasts.
 
 The report functionality is currently incomplete, but we invite stakeholders to provide feedback on the proposed interfaces and samples. Trials may follow a similar procedure.
 
