@@ -1,4 +1,3 @@
-# 24 hours of hourly average GHI. timestamps are ISO 8601.
 timestamp,value,quality_flag
 2019-06-06T00:00:00Z,5,0
 2019-06-06T01:00:00Z,0,0
