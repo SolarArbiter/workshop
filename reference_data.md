@@ -22,8 +22,9 @@ The Solar Forecast Arbiter imports new reference data from each of these network
 Recommended steps to explore the reference data:
 
 1. Click [here](https://solarforecastarbiter.org/referencedata/) to access a zoomable map.
-2. Visit [dev-dashboard.solarforecastarbiter.org/sites](https://dev-dashboard.solarforecastarbiter.org/sites/)
-3. Type *reference* in the search bar to restrict the listed sites to the reference data set.
+2. Visit [dashboard.solarforecastarbiter.org/sites](https://dashboard.solarforecastarbiter.org/sites/)
+3. Type *reference* in the search bar to restrict the listed sites to the reference data set. Alternatively, click the *Provider* menu to select/deselect options.
 4. Click through sites from a few different providers. Hint: use the search bar to filter sites by name e.g. *surfrad* or *srml*.
-5. Be sure to visit the Observation page for each site to see the data available from that site. Note that all sites have GHI, but only some have DNI and DHI.
+5. Be sure to visit the Observation page for each site to see the data available from that site. To do so, click the *Observations* link under the name of the site and above the site metadata table. For example, [NRED MIDC OASIS Observations](https://dashboard.solarforecastarbiter.org/observations/?uuid=9f61b880-7e49-11e9-9624-0a580a8003e9). Note that all sites have GHI, but only some have DNI and DHI.
+6. Some reference data sites include reference forecasts as well. Click the *Forecasts* link to the right of the *Observations* link. For example, [NRED MIDC OASIS Forecasts](https://dashboard.solarforecastarbiter.org/forecasts/single/?uuid=9f61b880-7e49-11e9-9624-0a580a8003e9)
 6. Select a *Sandia* site to view reference PV power data.
