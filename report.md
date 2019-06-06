@@ -2,11 +2,12 @@
 
 The Solar Forecast Arbiter's reports are the primary outputs of the project. The reports compare one or more observations to one or more forecasts. The reports include graphics and metrics that support users in determining the relative merits of forecasts.
 
-The report functionality is currently incomplete, but we invite stakeholders to provide feedback on the proposed interfaces and samples. The prototyped functionality covers the following [use cases](https://solarforecastarbiter.org/usecases/):
+The report functionality is currently incomplete and users are not yet able to generate their own reports. However, we invite stakeholders to provide feedback on the proposed interfaces and sample report. The prototyped functionality currently addresses the following [use cases](https://solarforecastarbiter.org/usecases/):
 
 * Compare a forecast to measurements
 * Compare multiple forecasts to measurements
 * Compare forecasts to measurements for sites and aggregates
+* Select subsets of forecasts and data
 
 Go to the dashboard's [reports page](https://dashboard.solarforecastarbiter.org/reports/) to see a list of reports that your account may access.
 
