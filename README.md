@@ -5,14 +5,6 @@ Solar Forecast Arbiter Workshop
 
 This repository contains materials for the [Solar Forecast Arbiter](https://solarforecastarbiter.org) workshops. Please see the [Releases page](https://github.com/SolarArbiter/workshop/releases) for the materials for a specific workshop.
 
-Most of the exercises below will require you to login to [dashboard.solarforecastarbiter.org](https://dashboard.solarforecastarbiter.org). Use any of the following logins for this workshop (some exercises recommend logging in using different accounts):
-
-|Email                                 | Password          |
-|--------------------------------------|-------------------|
-|utilityx@solarforecastarbiter.org     |Utilitypassword!   |
-|forecastera@solarforecastarbiter.org  |Forecasterpassword!|
-|forecasterb@solarforecastarbiter.org  |Forecasterpassword!|
-
 Complete any of these exercises in any order as they interest you:
 
 1. [Explore reference data](reference_data.md)
