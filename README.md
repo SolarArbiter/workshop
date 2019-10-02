@@ -1,9 +1,9 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SolarArbiter/2019-Denver-Workshop/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SolarArbiter/workshop/master)
 
-2019 Denver Workshop
-====================
+Solar Forecast Arbiter Workshop
+===============================
 
-This repository contains materials for the [Solar Forecast Arbiter](https://solarforecastarbiter.org) 2019 Denver Stakeholder Workshop.
+This repository contains materials for the [Solar Forecast Arbiter](https://solarforecastarbiter.org) workshops. Please see the [Releases page](https://github.com/SolarArbiter/workshop/releases) for the materials for a specific workshop.
 
 Most of the exercises below will require you to login to [dashboard.solarforecastarbiter.org](https://dashboard.solarforecastarbiter.org). Use any of the following logins for this workshop (some exercises recommend logging in using different accounts):
 
