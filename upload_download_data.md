@@ -1,6 +1,6 @@
 # Upload and Download Data
 
-The Solar Forecast Arbiter allows users to upload and download data in JSON and CSV formats. Data may be uploaded manually using the dashboard (the focus of this exercise) or programmatically using the [API](https://dev-api.solarforecastarbiter.org/).
+The Solar Forecast Arbiter allows users to upload and download data in JSON and CSV formats. Data may be uploaded manually using the dashboard (the focus of this exercise) or programmatically using the [API](https://api.solarforecastarbiter.org/).
 
 ## Upload
 
