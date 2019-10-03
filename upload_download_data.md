@@ -2,6 +2,8 @@
 
 The Solar Forecast Arbiter allows users to upload and download data in JSON and CSV formats. Data may be uploaded manually using the dashboard (the focus of this exercise) or programmatically using the [API](https://api.solarforecastarbiter.org/).
 
+*The test user accounts are shared, so don't use the test accounts to upload sensitive data!*
+
 ## Upload
 
 The upload data process is outlined in this [documentation](https://solarforecastarbiter.org/dashboarddoc/#upload-data). For this exercise, we recommend creating a new Site with new a 60-minute interval GHI Observation and Forecast so that you can use the data files linked to below.
