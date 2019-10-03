@@ -1,7 +1,7 @@
 Reference Data
 ==============
 
-The Solar Forecast Arbiter includes a set of reference irradiance and PV power data that all users may access. The image below shows a the status of the reference data set as of June 2019. Click [here](https://www.google.com/maps/d/u/0/viewer?mid=1sKsG0Uwy4Ozio2a1yfwaaE6OGqGQV1v8&ll=52.42446198117135%2C-119.04500000000004&z=3) to access a zoomable map and legend.
+The Solar Forecast Arbiter includes a set of reference irradiance and PV power data that all users may access. The image below shows the status of the reference data set as of October 2019. Click [here](https://www.google.com/maps/d/u/0/viewer?mid=1sKsG0Uwy4Ozio2a1yfwaaE6OGqGQV1v8&ll=52.42446198117135%2C-119.04500000000004&z=3) to access a zoomable map and legend.
 
 ![reference data map](reference_data_map.png)
 
